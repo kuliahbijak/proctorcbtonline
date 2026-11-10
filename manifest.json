@@ -1,0 +1,25 @@
+{
+  "name": "ProctorCBT — Ujian Online Anti-Nyontek",
+  "short_name": "ProctorCBT",
+  "description": "Ujian berbasis komputer dengan proteksi anti-nyontek, live monitoring pengawas, dan rekap nilai otomatis.",
+  "id": "./",
+  "start_url": "./?src=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#012d1d",
+  "theme_color": "#1B4332",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Live Monitoring", "short_name": "Monitor", "url": "./#/monitor", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Hasil & Nilai", "short_name": "Hasil", "url": "./#/hasil", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
